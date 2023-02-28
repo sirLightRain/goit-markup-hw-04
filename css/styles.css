@@ -103,6 +103,7 @@ button {
     color: var(--text-color);
 }
 
+
 /* Body text style 2 */
 .medium-text {
     font-weight: 500;
@@ -113,12 +114,20 @@ button {
 
 /* Footer text */
 .footer-text {
-    /* text-align: left; */
+    
     padding-top: 16px;
     font-size: 16px;
     line-height: 1.5;
     color: var(--accent-color);
 
+}
+
+/* Text style Footwr social media before list of icon */
+.medium-text-footer-social {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--hero-text-color);
 }
 
 /* ====================== Universal Container ====================== */
@@ -235,7 +244,7 @@ button {
 }
 
 
-/* ====================== Link ====================== */
+/* ====================== Link and list ====================== */
 /* Link style */
 .link {
     font-style: normal;
@@ -243,6 +252,10 @@ button {
     list-style: none;
     padding: 0px;
     margin: 0px;
+}
+
+.list {
+    list-style: none;
 }
 /* ====================== Site Navigation ====================== */
 
@@ -277,9 +290,44 @@ button {
 .site-nav .carrent {
     color: blue;
 }
-/* ====================== Hero ====================== */
+/* ====================== Hero. ====================== */
 
-/* ====================== Section 2 Переваги ====================== */
+.hero-bg {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/fon-pic-ofice-people.jpg);
+    width: 1440px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+/* .background {
+    width: 1440px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 20px;
+
+    border: 5px dashed teal;
+    background-color: tomato;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)) , url(https://picsum.photos/seed/picsum/200/300);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    background-origin: padding-box; 
+    background-clip: content-box;
+} */
+
+/* .title-second::after {
+    content: '';
+    display: block;
+    width: 200px;
+    height: 5px;
+    background-color: red;
+
+    margin: 0 auto;
+} */
+
+/* ====================== Section 2. Переваги. ====================== */
 
 .invisible {
     margin-top: 0px;
@@ -298,7 +346,7 @@ button {
     margin-left: 24px;
 }
 
-/* ====================== Section 3 What are we doing ====================== */
+/* ====================== Section 3. What are we doing. ====================== */
 
 .photo {
     display: flex;
@@ -308,12 +356,12 @@ button {
     margin-left: 24px;
 }
 
-/* ====================== Section 4 Our Team ====================== */
+/* ====================== Section 4. Our Team. ====================== */
 
 .team-cards {
     text-align: center;
     display: flex;
-   
+    
 }
 
 .team-cards .item + .item {
@@ -325,9 +373,25 @@ button {
     padding-top: 32px;
     padding-bottom: 32px;
     background-color: #fff;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 
-/* ====================== Footer ====================== */
+/* ====================== Section 5. Customers. ====================== */
+
+.section-double-pad-long-up {
+    padding-top: 130px;
+    padding-bottom: 120px;
+}
+
+.customers-icon {
+    display: flex;
+}
+
+.customers-icon .item + .item {
+    margin-left: 24px;
+}
+/* ====================== Footer. ====================== */
 
 .logo-footer {
     padding-bottom: 16px;
@@ -397,6 +461,9 @@ button {
     color: var(--hero-text-color);
     background-color: var(--pressed-state-color);
     border: 1px solid transparent;
+
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 }
 
 /* ====================== Portfolio cards net ====================== */
@@ -428,3 +495,7 @@ button {
     margin-left: 24px;
     margin-top: 48px;
 }
+
+/* ====================== Social icons + SVG ====================== */
+
+
