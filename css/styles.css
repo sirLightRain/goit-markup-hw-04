@@ -91,6 +91,7 @@ button {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    color: var(--dark-color);
 }
 
 /* Body text style */
@@ -301,35 +302,18 @@ button {
     background-size: cover;
 }
 
-/* .background {
-    width: 1440px;
-    height: 600px;
-    margin: 0 auto;
-    padding: 20px;
-
-    border: 5px dashed teal;
-    background-color: tomato;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)) , url(https://picsum.photos/seed/picsum/200/300);
-    background-repeat: no-repeat;
-    background-position: left top;
-    background-size: cover;
-    background-origin: padding-box; 
-    background-clip: content-box;
-} */
-
-/* .title-second::after {
-    content: '';
-    display: block;
-    width: 200px;
-    height: 5px;
-    background-color: red;
-
-    margin: 0 auto;
-} */
-
 /* ====================== Section 2. Переваги. ====================== */
 
-.invisible {
+.privileges {
+    display: flex;
+}
+
+.privilegis-list-item {
+    display: flex;
+    /* width: 264px; */
+    /* height: 224px; */
+}
+/* .invisible {
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -344,7 +328,14 @@ button {
 
 .privileges .item + .item {
     margin-left: 24px;
-}
+} */
+
+/* .privilegis-list-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} */
 
 /* ====================== Section 3. What are we doing. ====================== */
 
@@ -377,6 +368,35 @@ button {
     border-radius: 0px 0px 4px 4px;
 }
 
+.social-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.social-list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--primary-brand-color);
+}
+
+.small-text-icon {
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--text-color);
+    margin-bottom: 8px;
+}
+
+.social-list-icon {
+    fill: var(--light-colors);
+}
 /* ====================== Section 5. Customers. ====================== */
 
 .section-double-pad-long-up {
@@ -384,13 +404,27 @@ button {
     padding-bottom: 120px;
 }
 
-.customers-icon {
+.customers-list {
     display: flex;
+    justify-content: center;
+    gap: 24px;
 }
 
-.customers-icon .item + .item {
-    margin-left: 24px;
+.customers-list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 168px;
+    height: 88px;
+    border: 1px solid var(--subtle-text-color);
+    border-radius: 4px;
+    /* gap: 24px; */
 }
+
+.customers-list-icon {
+    fill: var(--subtle-text-color);
+}
+
 /* ====================== Footer. ====================== */
 
 .logo-footer {
@@ -466,7 +500,7 @@ button {
     border-radius: 4px;
 }
 
-/* ====================== Portfolio cards net ====================== */
+/* ====================== Portfolio cards ====================== */
 
 .card-set {
     display: flex;
@@ -491,11 +525,16 @@ button {
     border-top: 0px;
 }
 
+.card-set .item:hover,
+.card-set .item:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .card-set > .item {
     margin-left: 24px;
     margin-top: 48px;
 }
 
-/* ====================== Social icons + SVG ====================== */
+
 
 
