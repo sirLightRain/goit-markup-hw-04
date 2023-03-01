@@ -413,7 +413,7 @@ button {
 
 .customers-list-item:focus,
 .customers-list-item:hover {
-    border-color: var(--text-color);
+    border-color: var(--primary-brand-color);
 }
 
 .customers-list-icon {
@@ -422,7 +422,7 @@ button {
 
 .customers-list-item:focus .customers-list-icon,
 .customers-list-item:hover .customers-list-icon {
-    fill: var(--text-color);
+    fill: var(--primary-brand-color);
 }
 /* ====================== Footer. ====================== */
 
@@ -451,7 +451,7 @@ button {
 
 .social-list-link-f:focus,
 .social-list-link-f:hover {
-    background-color: var(--subtle-text-color);
+    background-color: var(--success-color);
 }
 
 /* ====================== Adress Activation ====================== */
