@@ -128,6 +128,7 @@ button {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    margin-bottom: 16px;
     color: var(--hero-text-color);
 }
 
@@ -302,40 +303,23 @@ button {
     background-size: cover;
 }
 
-/* ====================== Section 2. Переваги. ====================== */
+/* ====================== Section 2. Privilegis. ====================== */
 
-.privileges {
+.privil-list {
     display: flex;
+    justify-content: center;
+    gap: 24px;
 }
 
-.privilegis-list-item {
-    display: flex;
-    /* width: 264px; */
-    /* height: 224px; */
-}
-/* .invisible {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-.privileges {
-    display: flex;
-}
-
-.privileges > .item {
-    width: 264px;
-}
-
-.privileges .item + .item {
-    margin-left: 24px;
-} */
-
-/* .privilegis-list-icon {
+.privil-list-link {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-} */
+    width: 264px;
+    height: 112px;
+    margin-bottom: 8px;
+    background-color: var(--light-colors);
+}
 
 /* ====================== Section 3. What are we doing. ====================== */
 
@@ -430,6 +414,24 @@ button {
 .logo-footer {
     padding-bottom: 16px;
     display: block;
+}
+
+.footer-box {
+    display: flex;
+}
+
+.foter-cosial-media {
+    margin-left: 120px;
+}
+
+.social-list-link-f {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);;
 }
 
 /* ====================== Adress Activation ====================== */
