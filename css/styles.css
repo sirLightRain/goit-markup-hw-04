@@ -402,7 +402,7 @@ button {
     height: 88px;
     border: 1px solid var(--subtle-text-color);
     border-radius: 4px;
-    /* gap: 24px; */
+    
 }
 
 .customers-list-icon {
