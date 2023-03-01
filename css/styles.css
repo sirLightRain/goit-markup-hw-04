@@ -319,6 +319,7 @@ button {
     height: 112px;
     margin-bottom: 8px;
     background-color: var(--light-colors);
+    border-radius: 4px;
 }
 
 /* ====================== Section 3. What are we doing. ====================== */
@@ -355,7 +356,7 @@ button {
 .social-list {
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 16px;
 }
 
 .social-list-link {
@@ -366,6 +367,11 @@ button {
     height: 40px;
     border-radius: 50%;
     background-color: var(--primary-brand-color);
+}
+
+.social-list-link:focus,
+.social-list-link:hover {
+    background-color: var(--pressed-state-color);
 }
 
 .small-text-icon {
@@ -405,10 +411,19 @@ button {
     
 }
 
+.customers-list-item:focus,
+.customers-list-item:hover {
+    border-color: var(--text-color);
+}
+
 .customers-list-icon {
     fill: var(--subtle-text-color);
 }
 
+.customers-list-item:focus .customers-list-icon,
+.customers-list-item:hover .customers-list-icon {
+    fill: var(--text-color);
+}
 /* ====================== Footer. ====================== */
 
 .logo-footer {
@@ -432,6 +447,11 @@ button {
     height: 40px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);;
+}
+
+.social-list-link-f:focus,
+.social-list-link-f:hover {
+    background-color: var(--subtle-text-color);
 }
 
 /* ====================== Adress Activation ====================== */
