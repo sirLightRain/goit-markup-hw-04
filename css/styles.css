@@ -402,28 +402,32 @@ button {
 
 .customers-list-item {
     display: flex;
+}
+
+.customers-list-link {
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 168px;
     height: 88px;
     border: 1px solid var(--subtle-text-color);
     border-radius: 4px;
-    
-}
-
-.customers-list-item:focus,
-.customers-list-item:hover {
-    border-color: var(--primary-brand-color);
 }
 
 .customers-list-icon {
     fill: var(--subtle-text-color);
 }
 
-.customers-list-item:focus .customers-list-icon,
-.customers-list-item:hover .customers-list-icon {
-    fill: var(--primary-brand-color);
+.customers-list-link:focus,
+.customers-list-link:hover {
+    border-color: var(--primary-brand-color);
 }
+
+.customers-list-link:focus .customers-list-icon,
+.customers-list-link:hover .customers-list-icon {
+    fill: var(--primary-brand-color);
+} 
+
 /* ====================== Footer. ====================== */
 
 .logo-footer {
